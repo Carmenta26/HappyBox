@@ -20,8 +20,32 @@ class Menu_principal : AppCompatActivity() {
         val buttonTazas: Button = findViewById(R.id.button_tazas)
 
         buttonDetalles.setOnClickListener {
-            val intent = Intent(this, ProductosActivity::class.java)
+            val intent = Intent(this, Regalos::class.java)
             intent.putExtra("menuType", "Detalles")
+            startActivity(intent)
+        }
+
+        buttonGlobos.setOnClickListener {
+            val intent = Intent(this, Regalos::class.java)
+            intent.putExtra("menuType", "Globos")
+            startActivity(intent)
+        }
+
+        buttonPeluches.setOnClickListener {
+            val intent = Intent(this, Regalos::class.java)
+            intent.putExtra("menuType", "Peluches")
+            startActivity(intent)
+        }
+
+        buttonRegalos.setOnClickListener {
+            val intent = Intent(this, Regalos::class.java)
+            intent.putExtra("menuType", "Regalos")
+            startActivity(intent)
+        }
+
+        buttonTazas.setOnClickListener {
+            val intent = Intent(this, Regalos::class.java)
+            intent.putExtra("menuType", "Tazas")
             startActivity(intent)
         }
 

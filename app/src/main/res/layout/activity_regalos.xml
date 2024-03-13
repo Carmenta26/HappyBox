@@ -38,10 +38,11 @@
     <GridView
         android:id="@+id/grdiviewDetalles"
         android:layout_width="match_parent"
-        android:layout_height="620dp"
+        android:layout_height="645dp"
         android:layout_marginTop="18dp"
         android:numColumns="3"
-        android:paddingHorizontal="6dp" />
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="10dp" />
 
 
 </LinearLayout>
