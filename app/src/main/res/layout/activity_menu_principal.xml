@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Menu_principal">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="325dp"
+        android:layout_height="186dp"
+        app:srcCompat="@drawable/grupo2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/button_detalles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detalles"
+        android:background="@drawable/rounded_button"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/button_globos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Globos"
+        android:background="@drawable/rounded_button"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/button_peluches"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peluches"
+        android:background="@drawable/rounded_button"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/button_regalos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regalos"
+        android:background="@drawable/rounded_button"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/button_tazas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tazas"
+        android:background="@drawable/rounded_button"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
